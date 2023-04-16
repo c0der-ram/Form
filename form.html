@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang = "english">
+<head>
+	<title>basic html</title>
+	<meta charset = "utf-8">
+	<meta name = "description" content = "ducat is the best for student">
+	<meta name = "keywords" content = "HTML,CSS,java">
+	<meta name = "author" cotent = " ">
+	<meta http-equiv  = "refresh" content = "100">
+	<style type="text/css">
+		input[type="text"]{
+			width: 250px;
+			height: 30px;
+			border: 1px solid#11A0A9;
+			border-radius: 10px;
+			background: white;
+			color: black;
+		}
+
+		input[type="number"]{
+			width: 250px;
+			height: 30px;
+			border: 1px solid#11A0A9;
+			border-radius: 10px;
+			background: white;
+			color: black;
+		}
+
+		input[type="digit"]{
+			width: 250px;
+			height: 30px;
+			border: 1px solid#11A0A9;
+			border-radius: 10px;
+			background: white;
+			color: black;	
+		}
+
+        input[type="date"]{
+			width: 250px;
+			height: 30px;
+			border: 1px solid#11A0A9;
+			border-radius: 10px;
+			background: white;
+			color: black;
+          }
+
+           input[type="file"]{
+			width: 250px;
+			height: 30px;
+			border: 1px solid#11A0A9;
+			border-radius: 10px;
+			background: white;
+			color: black;
+          }
+
+		table{
+			border: 1px solid; black;
+			margin: 20px 0px 0px 430px;
+			color: white;
+			background-color: #900C3F;
+		}
+
+		select{
+			width: 250px;
+			height: 30px;
+			border: 1px solid#11A0A9;
+			border-radius: 10px;
+			background: white;
+			color: black;
+		}
+
+		h1{
+        	background: #33E0FF;
+         	color: darkred;
+         	font-size: 50px
+         }
+
+		body{
+			background-image: url(photo1.jpg);
+			background-repeat: no-repeat;
+	        background-size: cover;
+	        background-position: 0px 0px;
+		}
+
+		/*cover header and footer full width*/
+*{
+margin:0; padding:0; boxsizing:border-box;
+}
+
+
+	</style>
+</head>
+<body>
+
+  <h1>Learning Point</h1>
+
+	<table>
+		<form>
+			<caption >Registraion Form</caption>
+               <tr>
+               	<td>
+               		<label for ="n1">Enter Your Name</label>
+              &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<input type="text" name="userName" id="n1"/>
+               	</td>
+               </tr>
+
+                 <tr>
+               	<td>
+               	   <label for ="a1">Enter Your Age</label>
+               		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<input type="number" name="userAge" id="a1"/>
+               	</td>
+               </tr>
+        
+                 <tr>
+               	<td>
+                 <label>Upload Your Photo</label>
+	            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<input type="file" name="userFile" id="myfile"/>
+	             </td>
+               </tr>
+
+               <tr>
+               	<td>
+               		<label for ="d1">Enter Your Date Of Birth</label>
+               		&nbsp;&nbsp; &nbsp;&nbsp;<input type="date" name="dob" id="d1"/>
+               	</td>
+               </tr>
+
+                <tr>
+               	<td>
+               		<label for ="d1">Select Your Cource</label>
+               		&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<select id="opt">
+               			                                                     <option value="Course Option">Course Option</option>
+               		                                                         <option value="Java">Java</option>
+               		                                                         <option value="Python">Python</option>
+               		                                                         <option value="Full Stack Developer">Full Stack Developer</option>
+               		                                                         <option value="Data Scientist">Data Scientist</option>
+               		                                                         <option value="Network Security">Network Security</option>
+               		                                                         <option value="Ethical Hacking">Ethical Hacking</option>
+               		                                                         </select>
+               	</td>
+               </tr>
+
+               <tr>
+               	<td>
+               		<label for ="m1">Male</label>
+               		<input type="radio" name="gender" id="m1"/>
+
+               		<label for ="f1">Female</label>
+               		<input type="radio" name="gender" id="f1"/>
+
+               		<label for ="o1">other</label>
+               		<input type="radio" name="gender" id="o1"/>
+
+               	</td>
+               </tr>
+
+               <tr>
+               	<td>
+               		<label for ="e1">Enter Your Email</label>
+               		&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<input type="text" name="userEmail" id="e1"/>
+               	</td>
+               </tr>
+               <tr>
+
+               	 <tr>
+               	<td>
+               		<labelfor ="c1">Enter Your Contact Number</label>
+               		<input type="digit" name="userNumber" content maxlength="10" id="c1"/>
+               	</td>
+               </tr>
+               <tr>
+
+               <tr>
+               	<td>
+               		<label for ="l1">Language know</label>
+               		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; English <input type="checkbox" name="english" id="l1"/>
+               		Hindi<input type="checkbox" name="hindi" id="l1"/>
+               		Punjabi<input type="checkbox" name="punjabi" id="l1"/>
+               	</td>
+               </tr>
+
+		</form>
+	</table>
+	
+</body>
+</html>
